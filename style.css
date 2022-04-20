@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: dimgray;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    list-style-type: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    box-shadow: 5px 5px black;
+    border: none;
+    border-color: black;
+    border-radius: 10%;
+}
